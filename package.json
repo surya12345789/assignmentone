@@ -19,9 +19,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:test": "env-cmd -f ./env/.env.testing react-script start",
-    "start:prod": "env-cmd -f ./env/.env.production react-script start",
-    "start:dev": "env-cmd -f ./env/.env.development react-script start",
+    "start:test": "env-cmd -f src\/env\/.env.testing react-script start",
+    "start:prod": "env-cmd -f src\/env\/.env.production react-script start",
+    "start:dev": "env-cmd -f src\/env\/.env.development react-script start",
 
     "build": "react-scripts build",
     "test": "react-scripts test",
